@@ -1,4 +1,13 @@
-body{
-    background-color: black;
-    color: white;
+header{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    
+    .logo{
+        display: inline-block;
+
+        img{
+            height: 35px;
+        }
+    }
 }
